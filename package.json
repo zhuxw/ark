@@ -1,0 +1,38 @@
+{
+  "name": "ark",
+  "version": "0.0.1",
+  "description": "h5 project scaffolding tool",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "ark": "./bin/ark"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "commander": "2.15.1",
+    "gitlab": "^1.7.1",
+    "minimist": "1.2.0",
+    "request": "2.87.0",
+    "semver": "5.5.0",
+    "yeoman-environment": "2.1.1",
+    "yeoman-generator": "2.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^3.0.1",
+    "jshint": "^2.9.2",
+    "mocha": "^3.0.2",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "1.7.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": <%- JSON.stringify(deps, null, '  ').split('\n').map(function(line, i){
+      return i > 0 ? '  ' + line : line;
+  }).join('\n') %>
+}

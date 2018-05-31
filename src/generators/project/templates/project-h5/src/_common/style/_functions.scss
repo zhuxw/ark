@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// 10px 750设计稿转换率
+$px-75: 75;
+
+// 10px 375设计稿转换率
+$px-375: 37.5;
+
+// 换算rem数值 这里的 75
+@function getRem($n) {
+  @return ($n / $px-75) * 1rem;
+}
+
+@function getRem375($n) {
+  @return ($n / $px-375) * 1rem;
+}
